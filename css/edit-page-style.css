@@ -1,0 +1,148 @@
+nav {
+    background-color: #4D9561;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.logo {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    color: white;
+    font-size: 13px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 96px;
+
+    position: relative;
+}
+
+.user-name {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #8EC39D;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 130%;
+    left: -22%;
+    width: 136px;
+    height: 84px;
+    background-color: #ACACAC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.profile-link .profile-icon {
+    margin-right: 5px;
+    margin-left: 5px;
+    transform: scale(.7);
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form .logout-button {
+    width: 90%;
+    background-color: #2E68FD;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/**/
+
+.edit-popup {
+    width: 442px;
+    height: 221px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: flex;
+
+    position: absolute;
+    top: 100px;
+}
+
+.edit-popup .profile-icon {
+    width: 104px;
+    height: 104px;
+    background-color: #EC90C2;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.update-button {
+    border: none;
+    color: white;
+    background-color: #EB5555;
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 90px;
+    font-weight: bold;
+}
+
+.edit-popup form {
+    all: initial;
+    display: flex;
+}
+.edit-pop-section {
+    display: flex;
+    justify-content: center;
+}
